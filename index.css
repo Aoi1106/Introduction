@@ -1,0 +1,9 @@
+.logo {
+   background-image: url("./img/aoikubota.PNG");
+   background-position: top;
+   background-size: cover;
+   background-repeat: no-repeat; /*繰り返しなし*/
+   height: 500px;
+   width: 100vw;
+   position: static;
+}
