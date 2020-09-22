@@ -1,13 +1,114 @@
-.logo {
-   background-image: url("./img/aoi.PNG");
-   /*background-position: top;*/
-   background-size: cover;
-   background-repeat: no-repeat; /*繰り返しなし*/
-   text-align: top;
-   /*min-height: 50vh;*/
-   height: 50%;
-   width: 100%;
-   position: fixed;
-   top: 0;
-   left: 0;
+body {
+   background-color: #202f55;
+   color: white;
+   
 }
+
+a {
+   color: white;
+}
+
+.lang {
+   text-align: right;
+}
+
+.title {
+   text-align: center;
+   font-size: 60px;
+}
+
+.intro-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 30px;
+}
+
+.logo {
+   background-image: url("./img/aoikubota.PNG");
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   background-position: right 67% bottom 90%;
+}
+
+.item {
+   font-size: 30px;
+}
+
+.link-button {
+   color: white;
+   font-size: 20px;
+   justify-content: space-between;
+   display: inline-block;
+   padding: 0.3em 1em;
+   text-decoration: none;
+   color: white;
+   border: solid 1px skyblue;
+   transition: .4s;
+}
+
+.link-button:hover {
+   background: skyblue;
+   color: white;
+}
+   
+.history-table {
+   border-spacing: 30px 10px;
+   font-size: 15px;
+   color: white;
+}
+
+.history-table th {
+   text-align: left;
+}
+
+h4 {
+   text-indent: 2em;
+}
+
+.follow-me {
+   list-style: none;
+   margin: 0 0 -8px;
+   overflow: hidden;
+   padding: 0;
+}
+
+ .follow-me li {
+   float: left;
+   margin: 0 8px 8px 0;
+   padding: 0;
+ }
+
+ .follow-me li a::before {
+   background-color: #fff;
+   border-style: solid;
+   border-width: 1px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   color: #fff;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 24px;
+   height: 50px; /* Button height */
+   line-height: 50px; /* Button height */
+   -webkit-transition: all .3s ease;
+   transition: all .3s ease;
+   text-align: center;
+   width: 50px; /* Button width */
+ }
+
+ .follow-me li a[href*="github.com"]::before         { border-color: #181717; color: #181717; content: "\f09b"; }
+ .follow-me li a[href*="instagram.com"]::before      { border-color: #c13584; color: #c13584; content: "\f16d"; }
+ .follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; color: #55acee; content: "\f099"; }
+ .follow-me li a:hover::before {
+   color: #fff;
+ }
+
+ .follow-me li a[href*="github.com"]:hover::before         { background-color: #181717; }
+ .follow-me li a[href*="instagram.com"]:hover::before      { background-color: #c13584; }
+ .follow-me li a[href*="twitter.com"]:hover::before        { background-color: #55acee; }
+ 
+footer {
+   text-align: center;
+} 
