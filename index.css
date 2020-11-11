@@ -68,47 +68,50 @@ h4 {
 }
 
 .follow-me {
-   list-style: none;
-   margin: 0 0 -8px;
-   overflow: hidden;
-   padding: 0;
+   margin: 30px auto;
 }
 
- .follow-me li {
-   float: left;
-   margin: 0 8px 8px 0;
-   padding: 0;
- }
-
- .follow-me li a::before {
-   background-color: #fff;
-   border-style: solid;
-   border-width: 1px;
-   -webkit-border-radius: 2px;
-   border-radius: 2px;
-   color: #fff;
-   display: inline-block;
-   font-family: FontAwesome;
-   font-size: 24px;
-   height: 50px; /* Button height */
-   line-height: 50px; /* Button height */
-   -webkit-transition: all .3s ease;
-   transition: all .3s ease;
+.twitter {
+   background-color: #008DDE; 
+   display: inline;
+   position: relative;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: bold;
    text-align: center;
-   width: 50px; /* Button width */
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   padding: 14px 80px;
  }
 
- .follow-me li a[href*="github.com"]::before         { border-color: #181717; color: #181717; content: "\f09b"; }
- .follow-me li a[href*="instagram.com"]::before      { border-color: #c13584; color: #c13584; content: "\f16d"; }
- .follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; color: #55acee; content: "\f099"; }
- .follow-me li a:hover::before {
-   color: #fff;
+ .instagram {
+   background-color: #c13584;
+   display: inline;
+   position: relative;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   padding: 14px 80px;
  }
 
- .follow-me li a[href*="github.com"]:hover::before         { background-color: #181717; }
- .follow-me li a[href*="instagram.com"]:hover::before      { background-color: #c13584; }
- .follow-me li a[href*="twitter.com"]:hover::before        { background-color: #55acee; }
- 
+ .github {
+   background-color: #000000;
+   display: inline;
+   position: relative;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   padding: 14px 80px;
+ }
 footer {
    text-align: center;
 } 
